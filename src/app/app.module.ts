@@ -16,6 +16,8 @@ import { GroupComponent } from './components/group/group.component';
   ],
   providers: [],
   bootstrap: [AppComponent]
+
+  
   
 })
 export class AppModule { }
