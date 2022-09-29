@@ -1,20 +1,30 @@
 <div class="container">
-    <div class="row">
-        <div class="nav-area">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" routerLink="/permission">Permissions</a>
-                <div class="collapse navbar-collapse navbarText">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" routerLink="/group">Groups</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" routerLink="/role">Roles</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+    <div class="nav-area">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" routerLink="/permission">Permissions</a>
+            <div class="collapse navbar-collapse navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/group">Groups</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/role">Roles</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="row my-3">
+        <div class="col-2">
+            <div class="sidenav">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#clients">Clients</a>
+                <a href="#contact">Contact</a>
+            </div>
         </div>
-
+        <div class="col-10">
+            <app-table></app-table>
+        </div>
     </div>
 </div>
