@@ -1,0 +1,14 @@
+.nav-area a{
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.nav-area .navbarText{
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+.nav-area .navbarText li{
+    font-size: 30px;
+}
